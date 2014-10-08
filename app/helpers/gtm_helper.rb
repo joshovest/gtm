@@ -1,0 +1,2 @@
+module GtmHelper
+end

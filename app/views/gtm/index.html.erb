@@ -1,0 +1,8 @@
+<h1>GTM Accounts List</h1>
+<ul>
+  <% @result.each do |a| %>
+    <li>
+      <%= "#{a.accountId} - #{a.name}" %>
+    </li>
+  <% end %>
+</ul>
